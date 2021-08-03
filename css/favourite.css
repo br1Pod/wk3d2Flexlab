@@ -1,0 +1,38 @@
+.favourite {
+  display:flex;
+  flex-flow: row;
+  padding: 20px;
+}
+
+.favourite div{
+  width: 400px;
+  height: 300px;
+  flex: 33%;
+  flex-direction: row;
+  justify-content: space-around;
+  margin:20px;
+  
+}
+
+.favourite-bg-1 {
+    background-image: url(../img/favourites/indonesia.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .favourite-bg-2 {
+    background-image: url(../img/favourites/australia.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .favourite-bg-3 {
+    background-image: url(../img/favourites/switzerland.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  
+
+  
+ 

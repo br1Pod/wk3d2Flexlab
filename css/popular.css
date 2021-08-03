@@ -1,0 +1,19 @@
+#popgrid {
+    display: grid;
+    grid-area: pic;
+    grid-template-areas: 
+    'pic'
+    'pic'
+    'pic pic pic'
+    'pic pic pic';
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-gap:10px;
+  }
+  
+  .popular h2 {
+      text-align: center;
+  }
+
+  .popular h3 {
+      text-align: center;
+  }
